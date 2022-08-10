@@ -1,4 +1,41 @@
+.whole{
+    background-color: #BFD730;
+    height: 100vh;
+}
 
-.container{
-    color:red;
+.logo {
+    width: 48%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logback {
+    background-color: white;
+    width: 500px;
+    height: 250px;
+    border-bottom-left-radius: 250px;
+    border-bottom-right-radius: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    background-color: #BFD730;
+    border-radius: 29.2859px;
+    width: 393.6691px;
+    height: 58.5718px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 150px;
+    border: solid white;
+    color:white;
+    font-weight: bold;
+    
+}
+
+.button:hover{
+    background-color: white;
+    color: #BFD730;
 }

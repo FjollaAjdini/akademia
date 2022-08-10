@@ -1,0 +1,50 @@
+.logoNav {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 125px;
+    margin-left: 120px;
+}
+
+.logbackNav {
+    background-color: #BFD730;
+    width: 400px;
+    height: 200px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 150px;
+}
+
+.apliko{
+    margin-left: 250px;
+    width: 130.0389px;
+    height: 43.2208px;
+    border-radius:24.6104px;
+    background-color: white;
+    border-color: black;
+    margin-top: 30px;
+    
+
+}
+
+.shq{
+    margin: 0; 
+    display: inline;
+    cursor:pointer;
+}
+
+.de{
+    margin: 0;
+    display: inline;
+    align-items:right;
+    margin-left:30px;
+    cursor: pointer;
+}
+
+
+.gjuhet{
+    margin-top:40px;
+    margin-left:30px
+}
