@@ -19,6 +19,8 @@ export default function Navbar () {
              <p className='shq'>SHQ</p>
              <p className='de'>DE</p>
               </div>
+            
+
            </div>
         </div>
     

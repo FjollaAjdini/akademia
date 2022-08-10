@@ -25,6 +25,7 @@
     background-color: white;
     border-color: black;
     margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
     
 
 }
@@ -33,18 +34,31 @@
     margin: 0; 
     display: inline;
     cursor:pointer;
+    font-family: 'Poppins', sans-serif;
 }
-
+.shq:hover{
+    color: #BFD730;
+}
+ 
 .de{
     margin: 0;
     display: inline;
     align-items:right;
     margin-left:30px;
     cursor: pointer;
+    font-family: 'Poppins', sans-serif;
 }
-
+.de:hover{
+    color: #BFD730;
+}
 
 .gjuhet{
     margin-top:40px;
     margin-left:30px
+}
+
+
+.apliko:hover{
+    background-color: black;
+    color: white;
 }
