@@ -1,11 +1,13 @@
 import Link from 'next/link';
+import Footer from './Footer';
+import Menu from './Menu';
 
 
 export default function Navbar () {
         return (
 
        <div class="row">
-           <div class="col-md-3">...</div>
+           <div class="col-md-3"><Menu/></div>
            <div class="col-md-3"> 
            <div className='logbackNav'>
                 <img className='logoNav' src="images/logo versioni i bardh-01.svg"></img>
@@ -19,7 +21,7 @@ export default function Navbar () {
              <p className='shq'>SHQ</p>
              <p className='de'>DE</p>
               </div>
-            
+      
 
            </div>
         </div>

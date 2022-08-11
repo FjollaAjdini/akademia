@@ -1,0 +1,53 @@
+
+
+
+.socialss {
+    width: 5%;
+    margin-top: 30px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.parfooti {
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    color: #6D6D6D;
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+
+.footback{
+
+    height: 64vh;
+}
+
+
+.parS{
+    margin-top: 80px;
+   
+}
+
+.google-map-code{
+    margin-top: 110px;
+ 
+   
+}
+
+.total{
+    padding:0 250px;
+    background-color: #FAFAFA;
+}
+.hhr {
+    color:#BED630 ;
+
+    background-color: #BED630;
+    border-top: 1px solid #BED630;
+    opacity: 1;
+
+}
+
+
+.par{
+  font-family: 'Poppins', sans-serif;
+  margin-top: 50px;
+}

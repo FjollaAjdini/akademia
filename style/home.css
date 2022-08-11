@@ -1,5 +1,5 @@
 .whole{
-    background-color: #BFD730;
+    background-color: #BED630;
     height: 100vh;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .button {
-    background-color: #BFD730;
+    background-color: #BED630;
     border-radius: 29.2859px;
     width: 393.6691px;
     height: 58.5718px;
@@ -39,7 +39,7 @@
 
 .button:hover{
     background-color: white;
-    color: #BFD730;
+    color:#BED630;
 }
 
 .hrr{
@@ -54,7 +54,7 @@
 
 .parfoot{
     font-family: 'Poppins', sans-serif;
-    font-size: 8px;
+    font-size: 10px;
     color: white;
     margin-top: 6px;
     margin-bottom: 0;
