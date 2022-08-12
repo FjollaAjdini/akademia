@@ -1,3 +1,7 @@
+/* *{
+    overflow: hidden;
+} */
+
 .whole{
     background-color: #BFD730;
     height: 100vh;
@@ -72,4 +76,5 @@
     margin-right:5px;
     cursor: pointer;
 }
+
 
