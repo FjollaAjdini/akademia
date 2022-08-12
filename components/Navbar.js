@@ -6,10 +6,10 @@ export default function Navbar () {
             <div className='meny'>
                <div id="wrapper-navbar">
                   <header>
-                     <div class="navbar navbar-expand-md">
+                     <div className="navbar navbar-expand-md">
                         <div class="container">
                            
-                           <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                           <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                            
                               <div id="nav-icon">
                                     <div> <img src='images/menu icon nav-01.svg'></img></div>
@@ -21,31 +21,31 @@ export default function Navbar () {
                      </div>
 
                         <div className='main_nav'>
-                           <div id="navbarNavDropdown" class="navbar-collapse collapse">
+                           <div id="navbarNavDropdown" className="navbar-collapse collapse">
                               <ul id="main-menu" class="navbar-nav">
-                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">RRETH NESH</a>
+                                 <li className="nav-item">
+                                    <a href="#" className="nav-link">RRETH NESH</a>
                                  </li>
-                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">TRAJNIMET</a>
+                                 <li className="nav-item">
+                                    <a href="#" className="nav-link">TRAJNIMET</a>
                                  </li>
-                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">SHKOLLA JOTE</a>
+                                 <li className="nav-item">
+                                    <a href="#" className="nav-link">SHKOLLA JOTE</a>
                                  </li>
-                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">PYETJE TË SHPESHTA</a>
+                                 <li className="nav-item">
+                                    <a href="#" className="nav-link">PYETJE TË SHPESHTA</a>
                                  </li>
-                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">MË TË REJAT</a>
+                                 <li className="nav-item">
+                                    <a href="#" className="nav-link">MË TË REJAT</a>
                                  </li>
-                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">REGJISTRIMI</a>
+                                 <li className="nav-item">
+                                    <a href="#" className="nav-link">REGJISTRIMI</a>
                                  </li>
-                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">-</a>
+                                 <li className="nav-item">
+                                    <a href="#" className="nav-link">-</a>
                                  </li>
-                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">DEUTSCH</a>
+                                 <li className="nav-item">
+                                    <a href="#" className="nav-link">DEUTSCH</a>
                                  </li>
 
                               </ul>

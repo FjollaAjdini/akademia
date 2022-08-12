@@ -207,7 +207,19 @@ export default function Homepage () {
                         <button className='meshum'>MË SHUMË</button>
                        </div>
                    </div>
+                        <hr className='hrhrr' />
                 </div>
+
+
+
+                  <div className='bashkep'>
+                    <p className='tit'>BASHKËPUNIMI ME:</p>
+                    <p className='titt'>&#62; Pediatritë në praktikën private </p>
+                    <p className='titt'>&#62;Spitale për fëmijë</p>
+                    <p className='titt'>&#62;Shërbimet e infermierisë pediatrike</p>
+                  </div>
+
+
                 <br />
                 <br />
                 <br />
