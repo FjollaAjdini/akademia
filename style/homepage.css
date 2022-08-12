@@ -12,6 +12,8 @@
     font-family: 'Poppins', sans-serif;
     color:#6F6F6F;
     font-weight: bold;
+    border-bottom: 1px solid #BED630;
+        width: 290px;
    
 }
 
@@ -76,14 +78,12 @@ font-weight: bold;
             
 }
 
-
-.hhrr {
-    color: #BED630;
-    background-color: #BED630;
-    border-top: 1px solid #BED630;
-    opacity: 1;
-
+.meshum:hover{
+    background-color: black;
+    color: white;
 }
+
+
 
 .textt{
    margin-left: 380px; 
@@ -119,4 +119,136 @@ font-weight: bold;
     background-color:#BED630;border-style: none;
     color: white;
     margin-left: 35px;
+}
+
+
+.Foto{
+    width: 67%;
+}
+
+.lajme{
+    margin-left: 280px;
+    padding: 0 104px;
+    margin-top: 100px;
+    border-bottom: #BED630;
+    
+}
+
+.newpar{
+    color: #6F6F6F;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-top: 12px;
+    width:180px;
+    border-bottom: 1px solid #BED630;
+}
+
+
+
+
+.newparr {
+    color: #6F6F6F;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    border-bottom: 1px solid #BED630;
+    width: 100px;
+
+}
+
+.datee{
+color: #828282;
+font-family: 'Poppins', sans-serif;
+font-size: 13px;
+}
+
+
+.hrhr{
+    margin-top: 60px;
+    width: 89%;
+}
+
+
+.steni{
+    width: 50%;
+    margin-left: 350px;
+}
+
+
+.stenidesc{
+    width: 70%;
+}
+
+.pipsteni{
+    margin-top: 90px;
+}
+
+.hrhrr {
+    margin-top: 90px;
+    width: 64%;
+    margin-left: 355px;
+}
+
+.mispar{
+    width: 70%;
+}
+
+.misioni{
+    padding: 0 104px;
+    margin-left: 340px;
+    margin-top: 50px;
+}
+
+.misparr{
+    color: #6F6F6F;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        border-bottom: 1px solid #BED630;
+        width: 60px;
+}
+
+.thonjeza2{
+    width: 5%;
+    margin-bottom: 45px;
+}
+
+
+.thonjeza{
+    width: 7%;
+    margin-left: 900px;
+    margin-top: 30px;
+}
+
+.kualifikimet{
+    margin-top: 90px;
+}
+
+.kualdesc{
+    width: 70%;
+    margin-left: 427px;
+}
+
+.stenii{
+    width: 50%;
+    margin-left:205px;
+    
+}
+
+.titlee{
+    font-family: 'Poppins', sans-serif;
+    color: #6F6F6F;
+    font-weight: bold;
+    margin-top: 15px;
+    border-bottom: 1px solid #BED630;
+    width: 190px;
+}
+
+.ttitle {
+    font-family: 'Poppins', sans-serif;
+    color: #6F6F6F;
+    font-weight: bold;
+    margin-top: 15px;
+    border-bottom: 1px solid #BED630;
+    width: 100px;
 }

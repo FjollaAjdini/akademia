@@ -1,48 +1,147 @@
-import Link from 'next/link';
-
-import { Dropdown } from '@nextui-org/react';
-import Footer from './Footer';
-import Menu from './Menu';
 
 
 export default function Navbar () {
         return (
-         <div>
-       <div class="row">
-           <div className="col-md-3 menu">
-            {/* <Link href="../components/nav-link.js">MENU</Link> */}
-            <Dropdown>
-            <Dropdown.Button flat>MENU</Dropdown.Button>
-            <Dropdown.Menu aria-label="Static Actions" className="menu1">
-               <Dropdown.Item key="new">RRETH NESH</Dropdown.Item>
-               <Dropdown.Item key="copy">SHKOLLA JOTE</Dropdown.Item>
-               <Dropdown.Item key="edit">TRAJNIMET</Dropdown.Item>
-               <Dropdown.Item key="delete">MUNDËSITË</Dropdown.Item>
-               <Dropdown.Item key="delete1">PYETJE TË SHPESHTA</Dropdown.Item>
-               <Dropdown.Item key="delete2">MË TË REJAT</Dropdown.Item>
-               <Dropdown.Item key="delete3">REGJISTRIMI</Dropdown.Item>
-            </Dropdown.Menu>
-         </Dropdown>
-            </div>
-           <div className="col-md-3"> 
+         <div className='navi'>
+            <div className='meny'>
+               <div id="wrapper-navbar">
+                  <header>
+                     <div class="navbar navbar-expand-md">
+                        <div class="container">
+                           
+                           <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                           
+                              <div id="nav-icon">
+                                    <div> <img src='images/menu icon nav-01.svg'></img></div>
+                                    <div>MENU</div>
+                                 
+                              </div>
+                           </button>
+                        </div>
+                     </div>
 
-           <div class="col-md-3"><Menu/></div>
-           <div class="col-md-3"> 
-           <div className='logbackNav'>
-                <img className='logoNav' src="images/logo versioni i bardh-01.svg"></img>
-             </div>
-             </div>
-           <div className="col-md-3">
-            <button className='apliko'>APLIKO</button>
-           </div>
-           <div className="col-md-3">
-              <div className='gjuhet'>
-             <p className='shq'>SHQ</p>
-             <p className='de'>DE</p>
-              </div>
-           </div>
-        </div>
+                        <div className='main_nav'>
+                           <div id="navbarNavDropdown" class="navbar-collapse collapse">
+                              <ul id="main-menu" class="navbar-nav">
+                                 <li class="nav-item">
+                                    <a href="#" class="nav-link">RRETH NESH</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a href="#" class="nav-link">TRAJNIMET</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a href="#" class="nav-link">SHKOLLA JOTE</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a href="#" class="nav-link">PYETJE TË SHPESHTA</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a href="#" class="nav-link">MË TË REJAT</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a href="#" class="nav-link">REGJISTRIMI</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a href="#" class="nav-link">-</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a href="#" class="nav-link">DEUTSCH</a>
+                                 </li>
+
+                              </ul>
+                              
+                           </div>
+                        </div>
+
+
+                  </header>
+               </div>
+
+            </div>
+            <div className='center'>
+               <div className='logbackNav'>
+                  <img className='logoNav' src="images/logo versioni i bardh-01.svg"></img>
+               </div>
+            </div>
+            <div className='apliko_butoni'>
+               <button className='apliko'>APLIKO</button>
+            </div>
+            <div className='gjuha'>
+               <div className='gjuhet'>
+                           <p className='shq'>SHQ</p>
+                           <p className='de'>DE</p>
+                     </div>
+            </div>
+
          </div>
-        <div/>
-        </div>
 )};
+
+// <div className='navi'>
+//    <div className='meny'>
+//       <div id="wrapper-navbar">
+//          <header>
+//             <div class="navbar navbar-expand-md">
+//             <div class="container">
+               
+//                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+//                   <div id="nav-icon">
+                        
+//                   </div>
+// 					</button>
+//             </div>
+//             </div>
+
+//                <nav>
+//                   <div id="navbarNavDropdown" class="navbar-collapse collapse text-center">
+//                      <ul id="main-menu" class="navbar-nav">
+//                         <li class="nav-item">
+//                            <a href="#" class="nav-link">RRETH NESH</a>
+//                         </li>
+//                         <li class="nav-item">
+//                            <a href="#" class="nav-link">TRAJNIMET</a>
+//                         </li>
+//                         <li class="nav-item">
+//                            <a href="#" class="nav-link">SHKOLLA JOTE</a>
+//                         </li>
+//                         <li class="nav-item">
+//                            <a href="#" class="nav-link">PYETJE TË SHPESHTA</a>
+//                         </li>
+//                         <li class="nav-item">
+//                            <a href="#" class="nav-link">MË TË REJAT</a>
+//                         </li>
+//                         <li class="nav-item">
+//                            <a href="#" class="nav-link">REGJISTRIMI</a>
+//                         </li>
+//                         <li class="nav-item">
+//                            <a href="#" class="nav-link">-</a>
+//                         </li>
+//                         <li class="nav-item">
+//                            <a href="#" class="nav-link">DEUTSCH</a>
+//                         </li>
+
+//                      </ul>
+                     
+//                   </div>
+//                </nav>
+
+
+//          </header>
+//       </div>
+
+//    </div>
+//    <div className='center'>
+//       <div className='logbackNav'>
+//          <img className='logoNav' src="images/logo versioni i bardh-01.svg"></img>
+//       </div>
+//    </div>
+//    <div className='apliko'>
+//       <button className='apliko'>APLIKO</button>
+//    </div>
+//    <div className='gjuha'>
+//       <div className='gjuhet'>
+//                   <p className='shq'>SHQ</p>
+//                   <p className='de'>DE</p>
+//               </div>
+//    </div>
+
+// </div>
