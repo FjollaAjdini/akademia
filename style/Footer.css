@@ -23,12 +23,12 @@
 
 
 .parS{
-    margin-top: 80px;
+    margin-top: 20px;
    
 }
 
 .google-map-code{
-    margin-top: 110px;
+    margin-top: 10px;
  
    
 }
@@ -39,15 +39,15 @@
 }
 .hhr {
     color:#BED630 ;
-
     background-color: #BED630;
     border-top: 1px solid #BED630;
     opacity: 1;
+    margin-top: 100px;
 
 }
 
 
 .par{
   font-family: 'Poppins', sans-serif;
-  margin-top: 50px;
+  margin-top: 10px;
 }
