@@ -1,8 +1,10 @@
 
 import { useEffect } from "react";
+import Head from 'next/head'
 import 'bootstrap/dist/css/bootstrap.css'
 import "../style/home.css";
 import "../style/Nav.css";
+import "../style/Footer.css";
 import Link from 'next/link'
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import '../style/nav-link.css';
@@ -15,8 +17,8 @@ function MyApp({ Component, pageProps }) {
 return (
 <>
 
- 
-   <meta charSet="UTF-8" />
+      <Head>
+  <meta charSet="UTF-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
    <link rel="preload" href="https://via.placeholder.com/160" as="image"></link>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -27,7 +29,7 @@ return (
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossOrigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossOrigin="anonymous"></script>
 
-
+  </Head>
 <Component {...pageProps} />
 </>
 );

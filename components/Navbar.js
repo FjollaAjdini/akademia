@@ -1,11 +1,13 @@
 import Link from 'next/link';
-import { Dropdown } from '@nextui-org/react';
 
+import { Dropdown } from '@nextui-org/react';
+import Footer from './Footer';
+import Menu from './Menu';
 
 
 export default function Navbar () {
         return (
-
+         <div>
        <div class="row">
            <div className="col-md-3 menu">
             {/* <Link href="../components/nav-link.js">MENU</Link> */}
@@ -23,6 +25,9 @@ export default function Navbar () {
          </Dropdown>
             </div>
            <div className="col-md-3"> 
+
+           <div class="col-md-3"><Menu/></div>
+           <div class="col-md-3"> 
            <div className='logbackNav'>
                 <img className='logoNav' src="images/logo versioni i bardh-01.svg"></img>
              </div>
@@ -37,4 +42,7 @@ export default function Navbar () {
               </div>
            </div>
         </div>
-        )}
+         </div>
+        <div/>
+        </div>
+)};
