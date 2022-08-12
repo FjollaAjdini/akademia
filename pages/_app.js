@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import "../style/home.css";
 import "../style/Nav.css";
 import "../style/Footer.css";
+import "../style/homepage.css";
 import Link from 'next/link'
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import '../style/nav-link.css';

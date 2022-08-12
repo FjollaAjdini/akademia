@@ -1,0 +1,122 @@
+.qika{
+    width: 100%;
+    margin-bottom: 120px;
+    text-align: left;
+   
+  
+    
+   
+}
+
+.title{
+    font-family: 'Poppins', sans-serif;
+    color:#6F6F6F;
+    font-weight: bold;
+   
+}
+
+.subtitle{
+font-family: 'Poppins', sans-serif;
+color: #6F6F6F;
+font-size: 14px;
+font-weight: bold;
+
+}
+
+.desc{
+    font-family: 'Poppins', sans-serif;
+    color: #828282;
+    font-size: 13px;
+   
+}
+
+.textimg{
+    padding: 0 190px;
+}
+
+.titledesc{
+    align-items: right;
+    width: 125%;
+ 
+}
+
+
+
+.socialsfb{
+    width: 15%;
+    cursor: pointer;
+    display: block;
+    margin-top: 160px;
+    margin-bottom: 10px;
+}
+
+.socialsinsta {
+    width: 15%;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.socialsln {
+    width: 15%;
+    cursor: pointer;
+    display: block;
+}
+
+.meshum{
+      
+        width: 100px;
+        height: 30px;
+        border-radius: 24.6104px;
+        font-size: 13px;
+        font-family: 'Poppins', sans-serif;
+        background-color: white;
+        border: 2px solid #6F6F6F;
+            
+}
+
+
+.hhrr {
+    color: #BED630;
+    background-color: #BED630;
+    border-top: 1px solid #BED630;
+    opacity: 1;
+
+}
+
+.textt{
+   margin-left: 380px; 
+   
+}
+
+.abonback{
+    background-color:#FAFAFA ;
+
+    
+}
+
+
+#email{
+    width: 350px;
+    height: 40px;
+    border-radius: 24.6104px;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    border: 1px solid #6F6F6F;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+
+.dergo{
+    width: 100px;
+    height: 40px;
+    border-radius: 24.6104px;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    background-color:#BED630;border-style: none;
+    color: white;
+    margin-left: 35px;
+}
