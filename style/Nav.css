@@ -1,9 +1,19 @@
+/* *{
+    overflow: hidden;
+} */
+
 .logoNav {
     width: 40%;
     margin-left: auto;
     margin-right: auto;
     margin-left: 125px;
     margin-left: 120px;
+}
+
+.navi{
+    display: flex;
+    flex-direction: row;
+    margin:0 23%;
 }
 
 .logbackNav {
@@ -55,6 +65,7 @@
 
 .gjuhet{
     margin-top:40px;
+    margin-left:35px;
     
 }
 
@@ -104,32 +115,32 @@
     transition: 0.1s;
  }
 
-label:hover {
+.label:hover {
     cursor: pointer;
 }
 
-label{
+.label{
     width: 100%;
     display: block;
     z-index: 3;
     position:relative;
 }
 
-.nav{
+.main_nav{
     width:104%;
     background-color:#FAFAFA ;
     overflow-x:hidden;
     overflow-x:hidden ;
-    border-bottom: 1px solid white;
+    /* border-bottom: 1px solid white; */
 }
-
-/* #nav-icon{
+/* 
+#nav-icon{
     font-size: 28px;
 
     padding-left: 1em;
     color: white;
-    background-color: blue;
-} */
+   
+}  */
 
 .nav ul, .nav li, label {
     line-height: 20px;
@@ -154,5 +165,115 @@ label{
         color: #6D6D6D;
         font-weight: 100;
         
+}
+
+
+.navbar-expand-md {
+    z-index: 99;
+ 
+    padding: 0;
+}
+.navbar-expand-md .container .navbar-toggler {
+    display: block;
+}
+.navbar-collapse {
+    width: 100%;
+    background: #bdd630f6;
+    position: fixed;
+    z-index: 9;
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.4s;
+    
+}
+.navbar-collapse ul.navbar-nav {
+    position: absolute;
+    top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.navbar-collapse ul.navbar-nav li {
+    opacity: 0;
+    transition: opacity 0.4s cubic-bezier(0.58, 0.3, 0.005, 1);
+    padding: 0;
+    margin-bottom: 20px;
+}
+.navbar-collapse ul.navbar-nav li a {
+    color: white;
+    font-size: 25px;
+   
+    padding: 0;
+}
+.navbar-collapse.show {
+    min-height: 100vh;
+    visibility: visible;
+    opacity: 1;
+    z-index: 9;
+}
+.navbar-collapse.show ul li {
+    opacity: 1;
+}
+.navbar-collapse.show ul li:nth-child(1) {
+    transition-delay: 0.06s;
+}
+.navbar-collapse.show ul li:nth-child(2) {
+    transition-delay: 0.12s;
+}
+.navbar-collapse.show ul li:nth-child(3) {
+    transition-delay: 0.18s;
+}
+.navbar-collapse.show ul li:nth-child(4) {
+    transition-delay: 0.24s;
+}
+.navbar-collapse.show ul li:nth-child(5) {
+    transition-delay: 0.3s;
+}
+.navbar-collapse.show ul li:nth-child(6) {
+    transition-delay: 0.36s;
+}
+.navbar-toggler {
+    padding: 0;
+}
+.navbar-toggler #nav-icon {
+    width: 30px;
+    height: 22px;
+    position: relative;
+    margin: 0 auto;
+    transform: rotate(0deg);
+    cursor: pointer;
+}
+.navbar-toggler #nav-icon span {
+    display: block;
+    position: absolute;
+    height: 5px;
+    width: 50%;
+    background: #BED630;
+    opacity: 1;
+    transform: rotate(0deg);
+    transition: 0.25s ease-in-out;
+}
+
+
+.apliko{
+    margin-left: 35px;
+    margin-top:30px;
+}
+
+.nav-icon{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.container{
+    margin-top: 40px;
 }
 
