@@ -9,7 +9,6 @@ export default function FootNav () {
              <div className='multi-level'>
                <div className='item'>
                 <input type="checkbox" id="A" />
-                <img src="" alt="" />
                 <label htmlFor="A">RRETH NESH</label>
 
                 <ul>
@@ -21,7 +20,6 @@ export default function FootNav () {
                </div>
                 <div className='item'>
                 <input type="checkbox" id="B" />
-                <img src="" alt="" />
                 <label htmlFor="B">SHKOLLA JOTE</label>
 
                 <ul>
@@ -35,7 +33,6 @@ export default function FootNav () {
                </div>
                 <div className='item'>
                 <input type="checkbox" id="C" />
-                <img src="" alt="" />
                 <label htmlFor="C">TRAJNIMET</label>
 
                 <ul>
@@ -46,7 +43,6 @@ export default function FootNav () {
                </div>
                 <div className='item'>
                 <input type="checkbox" id="D" />
-                <img src="" alt="" />
                 <label htmlFor="D">MUNDËSITË</label>
                    <ul>
                   <li><a href="/">Mundësi Punësimi</a></li>
@@ -55,17 +51,14 @@ export default function FootNav () {
              </div>
               <div className='item'>
                 <input type="checkbox" id="E" />
-                <img src="" alt="" />
                 <label htmlFor="E">PYETJE TË SHPESHTA</label>
             </div>
             <div className='item'>
                 <input type="checkbox" id="GJ" />
-                <img src="" alt="" />
                 <label htmlFor="GJ">MË TË REJAT</label>
             </div>
              <div className='item'>
                 <input type="checkbox" id="F" />
-                <img src="" alt="" />
                 <label htmlFor="F">REGJISTRIMI</label>
 
                 <ul>
