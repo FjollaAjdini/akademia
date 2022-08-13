@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import MisioniVizioni from './AboutUs/MisioniVizioni';
 export default function Home() {
   return (
     <div className='whole'>
@@ -9,6 +10,7 @@ export default function Home() {
           <Link href="/Homepage"><button className="button">SHKOLLA E MESME</button></Link>
           <hr className='hrr'/>
 
+        
           <div className='foot' >
               <div className="row">
                  <div class="col-md-3">

@@ -1,6 +1,16 @@
 import Link from 'next/link';
+import Akreditimi from './AboutUs/Akreditimi';
+import Akademia from './AboutUs/Akademia';
+import MisioniVizioni from './AboutUs/MisioniVizioni';
+import Praktike from './Mundesite/Praktike';
+import Punesimi from './Mundesite/Punesimi';
+import Kualifikimet from './ShkollaJote/kualifikimet';
+import AftesiGj from './Trainings/AftesiGj';
+import Certifikimet from './Trainings/Certifikimet';
+import MesoGj from './Trainings/MesoGj';
 import Footer from '/components/Footer';
 import Navbar from '/components/Navbar';
+import StudentLife from './ShkollaJote/StudentLife';
 
 
 export default function Homepage () {
@@ -93,6 +103,8 @@ export default function Homepage () {
                 <div className='row'>
                    <div className='col-md-6'>
                     <img className='steni' src='images/KARSTENI.svg'></img>
+                     <p className='name'>KARSTEN KLAPP</p>
+                     <p className='position'>Drejtor</p>
                    </div>
                   <div className='col-md-6'>
                       <div className='stenidesc'>
@@ -226,9 +238,38 @@ export default function Homepage () {
                  <br />
             </div>
 
-             
-          <Footer/>
-      
+             <div>
+               <MisioniVizioni/>
+               <br />
+               <br />
+               <Akreditimi/>
+               <br />
+               <br />
+               <Kualifikimet/>
+               <br />
+               <br />
+               <MesoGj/>
+               <br />
+               <br />
+               <AftesiGj/>
+                <br />
+                <br />
+               <Certifikimet/>
+               <br />
+               <br />
+               <Punesimi/>
+               <br />
+               <br />
+               <Praktike/>
+               <br />
+               <br />
+               <Akademia/>
+               <br />
+               <br />
+               <StudentLife/>
+             </div>
+
+          {/* <Footer/> */}
         </div>
     )
 }

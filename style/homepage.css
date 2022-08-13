@@ -272,3 +272,22 @@ font-size: 13px;
     font-weight:500;
     cursor: pointer;
 }
+
+
+.name{
+    font-family: 'Poppins', sans-serif;
+    color: #6F6F6F;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-left: 460px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.position{
+    color: #6F6F6F;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0;
+    margin-left: 508px;
+    font-size: 14px;
+}
