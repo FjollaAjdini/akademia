@@ -1,0 +1,20 @@
+.akreditimi{
+    width: 58%;
+    margin-left: 380px;
+}
+
+.shkarko{
+        width: 130.0389px;
+        height: 43.2208px;
+        border-radius: 24.6104px;
+        background-color: white;
+        border-color: #6D6D6D;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 30px;
+        cursor: pointer;
+}
+
+.shkarko:hover{
+   background-color: black;
+   color: white;
+}

@@ -20,7 +20,6 @@
     width: 400px;
     height: 200px;
     border-bottom-left-radius: 200px;
-    border-bottom-right-radius: 200px;
     margin-left: auto;
     margin-right: auto;
     margin-left: 150px;
@@ -134,8 +133,10 @@
     width:104%;
     background-color:#FAFAFA ;
     overflow-x:hidden;
+    border-bottom: 1px solid white;
     overflow-x:hidden ;
     /* border-bottom: 1px solid white; */
+    
 }
 /* 
 #nav-icon{

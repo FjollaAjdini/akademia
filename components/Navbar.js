@@ -6,10 +6,14 @@ export default function Navbar () {
             <div className='meny'>
                <div id="wrapper-navbar">
                   <header>
-                     <div class="navbar navbar-expand-md">
+                     <div className="navbar navbar-expand-md">
                         <div class="container">
                            
+<<<<<<< HEAD
                            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropndown" aria-expanded="false" aria-label="Toggle navigation">
+=======
+                           <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+>>>>>>> 7970eb35e27ec7f280872a50e077d9a9ac922d02
                            
                               <div id="nav-icon">
                                     <div> <img src='images/menu icon nav-01.svg'></img></div>
@@ -21,8 +25,9 @@ export default function Navbar () {
                      </div>
 
                         <div className='main_nav'>
-                           <div id="navbarNavDropdown" class="navbar-collapse collapse">
+                           <div id="navbarNavDropdown" className="navbar-collapse collapse">
                               <ul id="main-menu" class="navbar-nav">
+<<<<<<< HEAD
                                  <li class="nav-item">
                                     <Link href="/pages/koncepti"><a class="nav-link">RRETH NESH</a></Link>
 
@@ -30,24 +35,31 @@ export default function Navbar () {
                                  <li class="nav-item">
                                     <a href="#" class="nav-link">TRAJNIMET</a>
                                        
+=======
+                                 <li className="nav-item">
+                                    <a href="#" className="nav-link">RRETH NESH</a>
                                  </li>
-                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">SHKOLLA JOTE</a>
+                                 <li className="nav-item">
+                                    <a href="#" className="nav-link">TRAJNIMET</a>
+>>>>>>> 7970eb35e27ec7f280872a50e077d9a9ac922d02
                                  </li>
-                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">PYETJE TË SHPESHTA</a>
+                                 <li className="nav-item">
+                                    <a href="#" className="nav-link">SHKOLLA JOTE</a>
                                  </li>
-                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">MË TË REJAT</a>
+                                 <li className="nav-item">
+                                    <a href="#" className="nav-link">PYETJE TË SHPESHTA</a>
                                  </li>
-                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">REGJISTRIMI</a>
+                                 <li className="nav-item">
+                                    <a href="#" className="nav-link">MË TË REJAT</a>
                                  </li>
-                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">-</a>
+                                 <li className="nav-item">
+                                    <a href="#" className="nav-link">REGJISTRIMI</a>
                                  </li>
-                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">DEUTSCH</a>
+                                 <li className="nav-item">
+                                    <a href="#" className="nav-link">-</a>
+                                 </li>
+                                 <li className="nav-item">
+                                    <a href="#" className="nav-link">DEUTSCH</a>
                                  </li>
 
                               </ul>
