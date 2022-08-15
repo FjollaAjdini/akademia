@@ -2,10 +2,6 @@
     width: 100%;
     margin-bottom: 120px;
     text-align: left;
-   
-  
-    
-   
 }
 
 .title{
@@ -15,6 +11,10 @@
     border-bottom: 1px solid #BED630;
         width: 290px;
    
+}
+
+.cnt{
+    overflow-x:hidden;
 }
 
 .subtitle{

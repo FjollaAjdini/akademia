@@ -23,9 +23,9 @@ export default function Footer () {
                      <p className='parfooti'>+383 (0) 49 947 612</p>
                      <p className='parfooti'>info@akademiaprofesionale.eu</p>
                 
-                     <img className='socialss' src="images/fb-01.svg"></img>
-                     <img className='socialss' src="images/insta-01.svg"></img>
-                     <img className='socialss' src="images/ln-01.svg"></img>
+                     <img className='socialss' src="/images/fb-01.svg"></img>
+                     <img className='socialss' src="/images/insta-01.svg"></img>
+                     <img className='socialss' src="/images/ln-01.svg"></img>
                     </div>
                 </div>
                 <div className="col-md-4"> 

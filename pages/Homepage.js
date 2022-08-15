@@ -15,7 +15,7 @@ import StudentLife from './ShkollaJote/StudentLife';
 
 export default function Homepage () {
     return(
-        <div>
+        <div className="cnt">
           <Navbar/>
           <div className='textimg'>
             <div className='row'>
