@@ -1,13 +1,15 @@
-.nav-link {
+.nav-links {
     color: #6D6D6D !important;
     background-color: white !important;
     width: 250px !important;
     font-family: 'Poppins' !important;
     border: 1px solid #6F6F6F !important ;
+    border-radius: 10px;
+    
     
 }
 
-.nav-link:hover{
+.nav-links:hover{
     color: white !important;
     background-color: #6D6D6D !important;
 }
