@@ -1,6 +1,4 @@
-/* *{
-    overflow: hidden;
-} */
+
 
 .logoNav {
     width: 40%;
@@ -8,6 +6,7 @@
     margin-right: auto;
     margin-left: 125px;
     margin-left: 120px;
+    z-index: 1;
 }
 
 .navi{
@@ -16,7 +15,7 @@
     margin:0 23%;
 }
 
-.logbackNav {
+/* .logbackNav {
     background-color:#BED630;
     width: 400px;
     height: 200px;
@@ -25,6 +24,11 @@
     margin-left: auto;
     margin-right: auto;
     margin-left: 150px;
+} */
+
+.logoNav{
+    margin-top: 0;
+    width:500px;
 }
 
 .apliko{
@@ -277,3 +281,8 @@
     margin-top: 40px;
 }
 
+.dropdown-menu{
+    background-color: #BED630;
+    color: black;
+    text-decoration: none;
+}
