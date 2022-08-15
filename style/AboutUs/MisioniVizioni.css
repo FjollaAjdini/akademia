@@ -1,7 +1,7 @@
-.nav-links {
+.nav-link {
     color: #6D6D6D !important;
     background-color: white !important;
-    width: 250px !important;
+    width: 240px !important;
     font-family: 'Poppins' !important;
     border: 1px solid #6F6F6F !important ;
     border-radius: 10px;
@@ -9,11 +9,14 @@
     
 }
 
-.nav-links:hover{
+.nav-link:hover{
     color: white !important;
     background-color: #6D6D6D !important;
 }
-
+.nav-link:focus {
+    color: white !important;
+    background-color: #6D6D6D !important;
+}
 
 
 .nav-tabs{
@@ -28,20 +31,15 @@
     margin-top: 60px;
     font-size: 20px;
     border-bottom: 1px solid #6D6D6D ;
-    width: 25%;
+    margin-bottom: 2em;
 }
 
 .mvvdesc{
     color: #6D6D6D;
     font-family: 'Poppins';
-    margin-top: 40px;
-}
-
-.mvv{
-    width: 70%;
+   
 }
 
 
-.mvvwhole{
-    margin-left: 390px;
-}
+
+
