@@ -1,15 +1,30 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
 .qika{
     width: 100%;
     margin-bottom: 120px;
     text-align: left;
 }
+.qikaa{
+
+width: 270%;
+margin-left: 10em;
+  
+   
+}
+
 
 .title{
     font-family: 'Poppins', sans-serif;
     color:#6F6F6F;
     font-weight: bold;
     border-bottom: 1px solid #BED630;
-        width: 290px;
+    width: 350px;
+    margin-top: 0.9em;
    
 }
 
@@ -22,6 +37,7 @@ font-family: 'Poppins', sans-serif;
 color: #6F6F6F;
 font-size: 14px;
 font-weight: bold;
+width: 350px;
 
 }
 
@@ -29,21 +45,26 @@ font-weight: bold;
     font-family: 'Poppins', sans-serif;
     color: #828282;
     font-size: 13px;
+    width: 360px;
+   
    
 }
 
-.textimg{
-    padding: 0 190px;
-}
+
 
 .titledesc{
     align-items: right;
-    width: 125%;
+    width: 325%;
  
 }
 
 
-
+.form{
+    display: block;
+    width: 450px;
+    margin-left: 12em;
+    margin-top: 3.3em;
+}
 .socialsfb{
     width: 15%;
     cursor: pointer;
@@ -75,7 +96,7 @@ font-weight: bold;
         font-family: 'Poppins', sans-serif;
         background-color: white;
         border: 2px solid #6F6F6F;
-            
+        margin-top: 0.4em;   
 }
 
 .meshum:hover{
@@ -85,28 +106,25 @@ font-weight: bold;
 
 
 
-.textt{
-   margin-left: 380px; 
-   
-}
-
 .abonback{
     background-color:#FAFAFA ;
+    width: 100%;
+    margin-top:5em ;
 
-    
 }
 
 
 #email{
-    width: 350px;
+    width: 270px;
     height: 40px;
     border-radius: 24.6104px;
     font-size: 13px;
     font-family: 'Poppins', sans-serif;
     background-color: white;
     border: 1px solid #6F6F6F;
-    margin-top: 60px;
-    margin-left: 50px;
+
+   
+   
 }
 
 
@@ -114,33 +132,33 @@ font-weight: bold;
     width: 100px;
     height: 40px;
     border-radius: 24.6104px;
-    font-size: 13px;
+    font-size: 12px;
     font-family: 'Poppins', sans-serif;
-    background-color:#BED630;border-style: none;
+    background-color:#BED630;
+    border-style: none;
     color: white;
-    margin-left: 35px;
+    margin-left: 1em;
+   
+
 }
+
 
 
 .Foto{
-    width: 67%;
+    width: 115%;
+    padding: 12px;
 }
 
-.lajme{
-    margin-left: 280px;
-    padding: 0 104px;
-    margin-top: 100px;
-    border-bottom: #BED630;
-    
-}
+
 
 .newpar{
     color: #6F6F6F;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    margin-top: 12px;
+    margin-top:1em;
     width:180px;
     border-bottom: 1px solid #BED630;
+    margin-left: 0.7em;
 }
 
 
@@ -160,134 +178,113 @@ font-weight: bold;
 color: #828282;
 font-family: 'Poppins', sans-serif;
 font-size: 13px;
+margin-left: 0.7em;
 }
-
-
-.hrhr{
-    margin-top: 60px;
-    width: 89%;
-}
-
 
 .steni{
-    width: 50%;
-    margin-left: 350px;
+    width: 180%;
+    margin-right:10em;
 }
-
-
-.stenidesc{
-    width: 70%;
-}
-
-.pipsteni{
-    margin-top: 90px;
-}
-
-.hrhrr {
-    margin-top: 90px;
-    width: 64%;
-    margin-left: 355px;
-}
-
-.mispar{
-    width: 70%;
-}
-
-.misioni{
-    padding: 0 104px;
-    margin-left: 340px;
-    margin-top: 50px;
-}
-
-.misparr{
-    color: #6F6F6F;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 700;
-        font-size: 16px;
-        border-bottom: 1px solid #BED630;
-        width: 60px;
-}
-
-.thonjeza2{
-    width: 5%;
-    margin-bottom: 45px;
-}
-
-
-.thonjeza{
-    width: 7%;
-    margin-left: 900px;
-    margin-top: 30px;
-}
-
-.kualifikimet{
-    margin-top: 90px;
-}
-
-.kualdesc{
-    width: 70%;
-    margin-left: 427px;
-}
-
-.stenii{
-    width: 50%;
-    margin-left:205px;
-    
-}
-
-.titlee{
-    font-family: 'Poppins', sans-serif;
-    color: #6F6F6F;
-    font-weight: bold;
-    margin-top: 15px;
-    border-bottom: 1px solid #BED630;
-    width: 190px;
-}
-
-.ttitle {
-    font-family: 'Poppins', sans-serif;
-    color: #6F6F6F;
-    font-weight: bold;
-    margin-top: 15px;
-    border-bottom: 1px solid #BED630;
-    width: 100px;
-}
-
-
-.bashkep{
-    margin-left: 700px;
-    margin-top: 55px;
-}
-
-.tit{
-    font-family: 'Poppins', sans-serif;
-    color: #6F6F6F;
-    font-weight: bold;
-    font-size: 17px;
-}
-
-.titt{
-    font-family: 'Poppins', sans-serif;
-    color: #828282;
-    font-weight:500;
-    cursor: pointer;
-}
-
 
 .name{
-    font-family: 'Poppins', sans-serif;
     color: #6F6F6F;
-    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-left: 5.5em;
+    margin-top: 1em;
+    width: 100%;
     margin-bottom: 0;
-    margin-left: 460px;
-    margin-top: 30px;
-    font-size: 20px;
 }
 
 .position{
     color: #6F6F6F;
     font-family: 'Poppins', sans-serif;
-    margin-top: 0;
-    margin-left: 508px;
-    font-size: 14px;
+    margin-left: 5.5em;
+}
+
+.tsd{
+    margin-left: 13em;
+}
+
+
+
+.wh{
+    margin-top: 8em;
+}
+
+.hr{
+    width: 51%;
+    margin-left: 24em;
+    color: #828282;
+    margin-top: 5em;
+}
+
+.pp{
+    color: #6F6F6F;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    border-bottom: 1px solid #BED630;
+    width: 100px;
+    font-size: 18px;
+}
+
+
+.dd{
+    font-family: 'Poppins', sans-serif;
+    color: #828282;
+    font-size: 13px;
+    width: 170px;
+    
+}
+
+.mv{
+    margin-top:5em;
+}
+
+.gg{
+    margin-left:3em;
+}
+
+.ggg{
+    margin-left: 6em;
+}
+
+
+.thonjeza2{
+    width: 6%;
+    margin-bottom: 3em;
+}
+
+.thonjeza {
+    width: 22%;
+    margin-left: 13em;
+    margin-top: 3em;
+}
+
+
+.qik{
+    width:180% ;
+    margin-left: 14em;
+}
+
+.qikn{
+    margin-left: 15em;
+    width: 350px;
+}
+
+.shigj{
+    width: 2%;
+}
+
+.tex{
+    font-family: 'Poppins', sans-serif;
+    color: #828282;
+     font-size: 16px;
+    width: 360px;
+}
+
+.bashk{
+    margin-top: 6em;
+    margin-left: 17em;
+    margin-bottom: 6em;
 }

@@ -1,4 +1,7 @@
-
+.nav-item a {
+    text-decoration: none;
+    color: white;
+}
 .logoNav {
     width: 40%;
     margin-left: auto;
@@ -6,6 +9,11 @@
     margin-left: 125px;
     margin-left: 120px;
     z-index: 1;
+}
+
+.nav-item{
+    color: white;
+    text-decoration: none;
 }
 
 .navi{
@@ -211,11 +219,16 @@
     padding: 0;
     margin-bottom: 20px;
 }
-.navbar-collapse ul.navbar-nav li a {
+.navbar-collapse ul.navbar-nav{
     color: white;
     font-size: 25px;
-   
     padding: 0;
+}
+
+
+.optitle1{
+    text-decoration: none;
+    color: white;
 }
 .navbar-collapse.show {
     min-height: 100vh;

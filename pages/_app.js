@@ -14,6 +14,7 @@ import Link from 'next/link'
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import '../style/nav-link.css';
 import "../style/ShkollaJote/stafi.css";
+import "../style/faq.css";
 
 
 function MyApp({ Component, pageProps }) {

@@ -1,25 +1,23 @@
 import Navbar from "../../components/Navbar";
 import Footer from '../../components/Footer';
 
-export default function AftesiGj () {
+export default function Kualifikimet () {
     return(
-
-        <>
-         <div className="koncnav">
+    <>
+     <div className="koncnav">
             <Navbar/>
-        </div>
-        <div className="topnav2">
-         AFTËSI TË GJELBËRTA
+    </div>
+    <div className="topnav2">
+         KONCEPTI JONË 
       </div>
       <div className="bannercontainer1">
             {/* <img className="hisimg" src="/images/historia.jpg" width="100%"></img> */}
       </div>
-
-        <div>
+    <div>
         <div className="row">
           <div className="col-lg-3">..</div>
             <div className="col-lg-6">
-                    <p className="mvvtitle">AFTËSI TË GJELBËRTA</p>
+                    <p className="mvvtitle">KONCEPTI JONË (ARSIMI DUAL)</p>
                     <p className='subtitlee'>LOREM IPSUM IS SIMPLY DUMMY</p>
                     <p className="mvvdesc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
                                            laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
@@ -42,6 +40,6 @@ export default function AftesiGj () {
     </div>
 
     </>
+
     )
 }
-

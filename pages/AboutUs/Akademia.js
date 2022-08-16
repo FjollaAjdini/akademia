@@ -1,44 +1,60 @@
-
+import Navbar from "../../components/Navbar";
+import Footer from '../../components/Footer';
 
 
 export default function Akademia () {
     return (
-        <div className="ak">
-            <div className="row">
-                <div className="col-md-2">
-                       ....
-                </div>
-                <div className="col-md-4">
-                     <img className='imgg' src='images/KARSTENI.svg'></img>
-                     <p className='namee'>KARSTEN KLAPP</p>
-                     <p className='positionn'>Drejtor</p>
-                </div>
-                <div className="col-md-4">
-                     <div className="akk">
-                         <p className='ttitlee'>AKADEMIA PROFESIONALE GJERMANE</p>
-                         <p className='descc'>Lorem Ipsum is simply dummy text of the    printing and typesetting
-                         industry. Lorem Ipsum has been the industry's standard dummy
-                         text ever since the 1500s, when an unknown printer took a galley
-                         of type and scrambled it to make a type specimen book. It has
-                         survived not only five centuries, but also the leap into   electronic
-                         typesetting, remaining essentially unchanged. It was popularised
-                         in the 1960s with the release of Letraset sheets containing Lorem
-                         Ipsum passages, and more recently with desktop publishing
-                         software like Aldus PageMaker including versions of Lorem
-                         Ipsum.It is a long established fact that a reader will be distracted
-                         by the readable content of a page when looking at its.
-                         It is a long established fact that a reader will be distracted
-                         by the readable content of a page when looking at its
-                         It is a long established fact that a reader will be distracted
-                         by the readable content of a page when looking at its
-                         It is a long established fact that a reader will be distracted
-                         by the readable content of a page when looking at its
-                         It is a long established fact that a reader will be distracted
-                         by the readable content of a page when looking at its </p>
+      <>
+      <div className="koncnav">
+         <Navbar/>
+      </div>
+      <div className="topnav2">
+         AKADEMIA PROFESIONALE GJERMANE
+      </div>
+      <div className="bannercontainer1">
+            {/* <img className="hisimg" src="/images/historia.jpg" width="100%"></img> */}
+      </div>
+          <div className='wh'>
+            <div className='row'>
+               <div className='col-lg-3'>...</div>
+               <div className='col-lg-6'>
+                  <div className='row'>
+                     <div className='col-lg-3'>
+                        <img className='steni' src='/images/Steni.png'></img>
+                        <div className='namep'>
+                        <p className='name'>KARSTEN KLAPP</p>
+                        <p className='position'>Drejtor</p>
+                        </div>
                      </div>
-                </div>
-
+                     <div className='col-lg-3'>
+                       <div className='tsd'>
+                        <p className='title'>AKADEMIA PROFESIONALE GJERMANE</p>
+                        <p className='desc'>Lorem Ipsum is simply dummy text of the printing and typesetting
+                           industry. Lorem Ipsum has been the industry's standard dummy text ever
+                           since the 1500s, when an unknown printer took a galley of type and
+                           scrambled it to make a type specimen book. It has survived not only five
+                           centuries, but also the leap into electronic typesetting, remaining
+                           essentially unchanged. It was popularised in the 1960s with the release
+                           of Letraset sheets containing Lorem Ipsum passages, and more recently
+                           with desktop publishing software like Aldus PageMaker including versions
+                           of Lorem Ipsum.It is a long established fact that a reader will be
+                          distracted by the readable content of a page when looking at its layout.
+                          The point of using Lorem Ipsum is that it has a more-or-less...
+                          distribution of letters, as opposed to using 'Content here, content ... </p>
+                          <button className='meshum'>MË SHUMË</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div className='col-lg-3'></div>
             </div>
-        </div>
+          </div>
+
+      <div>
+         <Footer/>
+      </div> 
+
+      </>
+
     )
 }
