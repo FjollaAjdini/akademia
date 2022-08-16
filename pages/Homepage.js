@@ -1,16 +1,7 @@
 import Link from 'next/link';
-import Akreditimi from './AboutUs/Akreditimi';
-import Akademia from './AboutUs/Akademia';
-import MisioniVizioni from './AboutUs/MisioniVizioni';
-import Praktike from './Mundesite/Praktike';
-import Punesimi from './Mundesite/Punesimi';
-import Kualifikimet from './ShkollaJote/kualifikimet';
-import AftesiGj from './Trainings/AftesiGj';
-import Certifikimet from './Trainings/Certifikimet';
-import MesoGj from './Trainings/MesoGj';
 import Footer from '/components/Footer';
 import Navbar from '/components/Navbar';
-import StudentLife from './ShkollaJote/StudentLife';
+import Partneret from './AboutUs/Partneret';
 
 
 
@@ -300,16 +291,9 @@ export default function Homepage () {
                   <div className='col-lg-3'></div>
                </div>
             </div>
-           <MisioniVizioni/>
-           <Akreditimi/>
-           <Kualifikimet/>
-           <MesoGj/>
-           <AftesiGj/>
-           <Certifikimet/>
-           <Praktike/>
-           <Punesimi/>
-           <Akademia/>
-           <StudentLife/>
+      
+           <Partneret/>
+           
           {/* <Footer/> */}
       </div>
         
