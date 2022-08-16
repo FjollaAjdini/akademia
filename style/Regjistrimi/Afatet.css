@@ -1,0 +1,25 @@
+.parag{
+   
+        font-family: 'Poppins', sans-serif;
+        color: #6F6F6F;
+}
+
+.tit {
+    color: #2A7EE6;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    width: 250px;
+    border-bottom: 1px solid #2A7EE6;
+    margin-bottom: 2em;
+}
+
+.titt{
+    font-family: 'Poppins', sans-serif;
+    color: #6F6F6F;
+    font-size: 25px;
+    margin-bottom: 3em;
+    border-bottom: 1px solid #6F6F6F;
+    width: 320px;
+    
+}
+

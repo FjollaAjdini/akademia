@@ -1,7 +1,9 @@
 import Link from 'next/link';
 import Footer from '/components/Footer';
 import Navbar from '/components/Navbar';
-import Partneret from './AboutUs/Partneret';
+import Kosto from './Regjistrimi/Kosto';
+import Aplikimi from './Regjistrimi/Aplikimi';
+
 
 
 
@@ -292,8 +294,7 @@ export default function Homepage () {
                </div>
             </div>
       
-           <Partneret/>
-           
+         
           {/* <Footer/> */}
       </div>
         
