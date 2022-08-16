@@ -1,0 +1,65 @@
+.prov{
+    background-color: #6F6F6F;
+    width: 330px;
+    height: 180px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    padding: 2em;
+}
+
+.shkarkoo{
+    width: 330px;
+    height: 50px;
+    background-color:#303030;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10em;
+   
+}
+
+.meshumee{
+        width: 100px;
+        height: 30px;
+        font-size: 13px;
+        font-family: 'Poppins', sans-serif;
+        background-color:#303030 ;
+        border: 2px solid #6F6F6F;
+        margin-top: 0.4em;
+        color: white;
+}
+
+
+.dscc{
+    margin-left: 13em;
+    margin-top: 4.6em;
+  
+}
+
+.prc{
+    width: 320px;
+    font-family: 'Poppins', sans-serif;
+    color: #6F6F6F;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.inf{
+    color: #2A7EE6;
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    width: 100px;
+    border-bottom: 1px solid #2A7EE6;
+}
+
+.tt{
+    font-family: 'Poppins', sans-serif;
+    color: #6F6F6F;
+    font-weight: bold;
+    font-size: 23px;
+    width: 327px;
+    border-bottom: 1px solid #6F6F6F;
+    margin-bottom: 2em;
+    
+    
+}

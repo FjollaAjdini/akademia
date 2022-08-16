@@ -8,6 +8,9 @@ import "../style/Footer.css";
 import "../style/AboutUs/Akademia.css"
 import "../style/homepage.css";
 import "../style/AboutUs/Akreditimi.css"
+import "../style/Regjistrimi/Aplikimi.css"
+import "../style/Regjistrimi/Afatet.css"
+import "../style/AboutUs/Partneret.css"
 import "../style/ShkollaJote/kualifikimet.css"
 import "../style/AboutUs/MisioniVizioni.css"
 import Link from 'next/link'
