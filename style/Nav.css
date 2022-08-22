@@ -1,7 +1,21 @@
-.nav-item a {
+.opttitle1 a{
+    color: black !important;
+    font-size:20px;
+}
+
+.nav-links{
+    font-size:17px;
+    padding:0;
+    margin: 0;
+}
+
+.nav-item a{
     text-decoration: none;
     color: white;
+    padding:0;
+    margin: 0;
 }
+
 .logoNav {
     width: 40%;
     margin-left: auto;
@@ -11,9 +25,18 @@
     z-index: 1;
 }
 
+.navbar1{
+    font-size: 15px;
+}
+
 .nav-item{
     color: white;
     text-decoration: none;
+}
+
+.nav-icon{
+    display: flex;
+    flex-direction: row;
 }
 
 .navi{
@@ -22,6 +45,17 @@
     margin:0 23%;
     z-index:1 !important;
 }
+
+.nx2::after {
+    content: url("../public/images/arrow_menu_01.png");
+    height: 5px;
+    
+  }
+ 
+  .nx2[aria-expanded="true"]::after {
+    content: url("../public/images/arrow_menu_02.png");
+
+  }
 
 /* .logbackNav {
     background-color:#BED630;
@@ -36,6 +70,7 @@
 .logoNav{
     margin-top: 0;
     width:500px;
+    /* align-items: center; */
 }
 
 .apliko{
@@ -47,8 +82,6 @@
     border-color: black;
     margin-top: 30px;
     font-family: 'Poppins', sans-serif;
-    
-
 }
 
 .shq{
@@ -57,6 +90,7 @@
     cursor:pointer;
     font-family: 'Poppins', sans-serif;
 }
+
 .shq:hover{
     color:#BED630;
 }
@@ -217,7 +251,7 @@
     opacity: 0;
     transition: opacity 0.4s cubic-bezier(0.58, 0.3, 0.005, 1);
     padding: 0;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .navbar-collapse ul.navbar-nav{
     color: white;
@@ -231,7 +265,7 @@
     color: white;
 }
 .navbar-collapse.show {
-    min-height: 100vh;
+    /* min-height: 100%; */
     visibility: visible;
     opacity: 1;
     z-index: 9;
@@ -239,7 +273,7 @@
 .navbar-collapse.show ul li {
     opacity: 1;
 }
-.navbar-collapse.show ul li:nth-child(1) {
+/* .navbar-collapse.show ul li:nth-child(1) {
     transition-delay: 0.06s;
 }
 .navbar-collapse.show ul li:nth-child(2) {
@@ -256,7 +290,7 @@
 }
 .navbar-collapse.show ul li:nth-child(6) {
     transition-delay: 0.36s;
-}
+} */
 .navbar-toggler {
     padding: 0;
 }
@@ -289,6 +323,17 @@
     display: flex;
     flex-direction: row;
 }
+
+/* .nav-icon::after {
+    content: url("../public/images/arrow-01.png");
+  
+    
+  }
+ 
+  .nav-icon[aria-expanded="true"]::after {
+    content: url("../public/images/arrow-02.png");
+
+  } */
 
 
 .container{

@@ -38,7 +38,7 @@
 }
 
 .mvwhole{
-  margin-top: 300px;;
+  margin-top: 300px;
 }
 
 .koncnav{
@@ -49,10 +49,10 @@
 
 .topnav2{
     z-index: -9999 !important;
-    font-size: 18px;
+    font-size: 16px;
     background-color:#c0bcbc;
     width:100vw;
-    position: absolute;
+    /* position: absolute; */
     margin-top: -4%;
     z-index: 4;
     padding: 0.3% 0 0.3% 26%;
