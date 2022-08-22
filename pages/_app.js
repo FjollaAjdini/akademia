@@ -12,6 +12,7 @@ import "../style/Regjistrimi/Aplikimi.css"
 import "../style/Regjistrimi/Afatet.css"
 import "../style/AboutUs/Partneret.css"
 import "../style/ShkollaJote/kualifikimet.css"
+import "../style/ShkollaJote/Kantina.css"
 import "../style/AboutUs/MisioniVizioni.css"
 import Link from 'next/link'
 import "@fortawesome/fontawesome-svg-core/styles.css";

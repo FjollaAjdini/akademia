@@ -1,82 +1,106 @@
+import Link from 'next/link';
+
+
 export default function FootNav () {
         return (
-     
-         <div>
-           <div className='nav'>
-             {/* <input type="checkbox" id="menu" />
-          <label htmlFor="menu">&#9776;</label>  */}
-
-             <div className='multi-level'>
-               <div className='item'>
-                <input type="checkbox" id="A" />
-                <label htmlFor="A">RRETH NESH</label>
-
-                <ul>
-                  <li><a href="/">Akademia Profesionale Gjermane</a></li>
-                  <li><a href="/">Misioni &#38;Vizioni	&#38; Vlerat</a></li>
-                  <li><a href="/">Akreditimi</a></li>
-                  <li><a href="/">Partnerët</a></li>
-                </ul> 
+      <div className="home-containerr">
+            <ul className="list-group">
+            <li className="list-group-itemm">
+                
+               <div className="container-shh">
+               <p className="nx12" data-toggle="collapse" data-target="#collapse0" >RRETH NESH</p>
+               <div id="collapse0" className="collapse">       
+                        <div className="ol">
+                                 
+                                 <div className="oll"><Link href="/AboutUs/Akademia"><p class="">Akademia Profesionale Gjermane</p></Link></div>
+                                 <div className="oll"><Link href="/AboutUs/MisioniVizioni"><p class="">Misioni &#38;Vizioni&#38;Vlerat</p></Link></div> 
+                                 <div className="oll"><Link href="/AboutUs/koncepti"><p class="">Koncepti jonë (Arsimi Dual)</p></Link></div>
+                                 <div className="oll"><Link href="/AboutUs/Akreditimi"><p class="">Akreditimi</p></Link></div>
+                                 <div><Link href="/AboutUs/Partneret"><p class="">Partnerët</p></Link></div>
+                         </div>                                              
+               </div>                 
                </div>
-                <div className='item'>
-                <input type="checkbox" id="B" />
-                <label htmlFor="B">SHKOLLA JOTE</label>
+            </li>
+            <li className="list-group-itemm">
+            <div className="container-shh">
+               <p className="nx12" data-toggle="collapse" data-target="#collapse1" >SHKOLLA JOTE</p>
+               <div id="collapse1" className="collapse">
+                    <div className="ol">
+                                <div className="opttitle1 mb-3 mt-1"><Link href="/ShkollaJote/Kualifikimet"><p class="">Kualifikimet</p></Link></div>
+                                            
+                                       <div className="oll"><Link href="/ShkollaJote/stafi"><p class="">Stafi</p></Link></div>
 
-                <ul>
-                  <li><a href="/">Kualifikimet</a></li>
-                  <li><a href="/">Stafi</a></li>
-                  <li><a href="/">Laboratori</a></li>
-                  <li><a href="/">Jeta e Nxënësit</a></li>
-                  <li><a href="/">Transporti</a></li>
-                  <li><a href="/">Kantina</a></li>
-                </ul> 
-               </div>
-                <div className='item'>
-                <input type="checkbox" id="C" />
-                <label htmlFor="C">TRAJNIMET</label>
+                                       <div className="oll"><Link href="/AboutUs/koncepti"><p class="">Laboratori</p></Link></div>
 
-                <ul>
-                  <li><a href="/">Mëso Gjermanisht</a></li>
-                  <li><a href="/">Aftësi të gjelbërta "green skills"</a></li>
-                  <li><a href="/">Çertifikimet</a></li>
-                </ul> 
+                                       <div className="oll"><Link href="/ShkollaJote/StudentLife"><p class="">Jeta e Nxënesit</p></Link></div>
+
+                                       <div className="oll"><Link href="/AboutUs/MisioniVizioni"><p class="">Transporti</p></Link></div>
+
+                                       <div><Link href="/ShkollaJote/Kantina"><p class="">Kantina</p></Link></div>
+
+                    </div>                                          
                </div>
-                <div className='item'>
-                <input type="checkbox" id="D" />
-                <label htmlFor="D">MUNDËSITË</label>
-                   <ul>
-                  <li><a href="/">Mundësi Punësimi</a></li>
-                  <li><a href="/">Praktikë në Gjermani &#38; Austri </a></li>
-                </ul> 
-             </div>
-              <div className='item'>
-                <input type="checkbox" id="E" />
-                <label htmlFor="E">PYETJE TË SHPESHTA</label>
             </div>
-            <div className='item'>
-                <input type="checkbox" id="GJ" />
-                <label htmlFor="GJ">MË TË REJAT</label>
-            </div>
-             <div className='item'>
-                <input type="checkbox" id="F" />
-                <label htmlFor="F">REGJISTRIMI</label>
+            </li>
+            <li className="list-group-itemm        ">
+            <div className="container-shh">
+               <p className="nx12" data-toggle="collapse" data-target="#collapse2" >TRAJNIMET</p>
+               <div id="collapse2" className="collapse">
+                      <div className="ol"> 
+                            
+                                  <div className="oll"><Link href="/Trainings/MesoGj"><p class="">Mëso Gjermanisht</p></Link></div>
+                                             
+                                             <div className="oll"><Link href="/Trainings/AftesiGj"><p class="">Aftësi të Gjelberta</p></Link></div>
 
-                <ul>
-                  <li><a href="/">Procesi i aplikimit</a></li>
-                  <li><a href="/">Afatet e aplikimit</a></li>
-                  <li><a href="/">Kostot financiare</a></li>
-                </ul> 
+                                             <div><Link href="/Trainings/Certifikimet"><p class="">Çërtifikimet</p></Link></div>
+                      </div>
                </div>
-                 <div className='item'>
-                <input type="checkbox" id="G" />
-                <img src="" alt="" />
-                <label htmlFor="G">DEUTSCH</label>
             </div>
-           </div>
-           </div>
-         </div>
-    
+            </li>
+            <li className="list-group-itemm">
+            <div className="container-shh">
+               <p className="nx12" data-toggle="collapse" data-target="#collapse3" > MUNDËSITË</p>
+               <div id="collapse3" className="collapse">
+                        <div className="ol"> 
+                                 <div className="oll"><Link href="/Mundesite/Punesimi"><p  class="">Mundësi Punësimi</p></Link></div>
+                                             
+                                 <div className="oll"><Link href="/Mundesite/Praktike"><p class="">Praktikë në Gjermani & Austri</p></Link></div>
+                        </div>
+                                                                        
+               </div>
+            </div>
+            </li>
+            <div className="list-group-itemm">
+            <div className="container-shh">
+               <p className="nx12" data-toggle="collapse" data-target="#collapse4" >PYETJE TE SHPESHTA</p>
+            </div>
+            </div>
+            <div className="list-group-itemm">
+            <div className="container-shh">
+               <p className="nx12" data-toggle="collapse" data-target="#collapse5" >ME TE REJAT</p>
+            </div>
+            </div>
+            <li className="list-group-itemm">
+            <div className="container-shh">
+               <p className="nx12" data-toggle="collapse" data-target="#collapse6" >REGJISTRIMI</p>
+               <div id="collapse6" className="collapse">
+                       <div className="ol"> 
+                                  <div className="oll"><Link href="/Regjistrimi/Aplikimi"><p class="">Procesi i Aplikimit</p></Link></div>
+                                             
+                                             <div className="oll"><Link href="/Regjistrimi/Afatet"><p class="">Afatet e Aplikimit</p></Link></div>
 
-          
+                                             <div className="oll"><Link href="/Regjistrimi/Kosto"><p class="">Kostot Financiare</p></Link></div>
+                        </div>                                                  
+               </div>
+            </div>
+            </li>
+            <div className="list-group-itemm">
+            <div className="container-shh">
+               <p className="nx12" data-toggle="collapse" data-target="#collapse7" >DEUTSCH</p>
+            </div>
+            </div>
+            </ul>
+            </div>
+       
               )
               }

@@ -1,53 +1,97 @@
 
-
+.total{
+    background-color: #FAFAFA;
+}
 
 .socialss {
-    width: 5%;
-    margin-top: 30px;
-    margin-right: 5px;
+    width: 24%;
+    margin-top: 2em;
+    margin-right: 0.3em;
     cursor: pointer;
+    
 }
 
 .parfooti {
     font-family: 'Poppins', sans-serif;
-    font-size: 10px;
-    color: #6D6D6D;
-    margin-top: 6px;
+    font-size: 11px;
+    color:#6D6D6D ;
     margin-bottom: 0;
+    width: 280px;
 }
 
-.footback{
-
-    height: 64vh;
-}
 
 
 .parS{
-    margin-top: 20px;
+    margin-left: 3.1em;
    
 }
 
 .google-map-code{
-    margin-top: 10px;
+    margin-top: 3.7em;
+    margin-left: 12.5em;
  
    
 }
 
-.total{
-    padding:0 250px;
-    background-color: #FAFAFA;
-}
-.hhr {
-    color:#BED630 ;
-    background-color: #BED630;
-    border-top: 1px solid #BED630;
-    opacity: 1;
-    margin-top: 100px;
 
-}
 
 
 .par{
   font-family: 'Poppins', sans-serif;
-  margin-top: 10px;
+  margin-top: 1em;
+  width: 800px;
+  border-bottom: 1px solid #BED630;
 }
+
+
+.hp{
+    width: 140px;
+    border-bottom: 1px solid #BED630;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1em;
+}
+
+.hk{
+    width: 600px;
+    border-bottom: 1px solid #BED630;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1em;
+}
+
+
+
+ .nx12{
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    position: relative;
+    border-bottom: 1px solid #6D6D6D;
+ }
+ .nx12:hover{
+    color: #BED630;
+    border-bottom: 1px solid #BED630;
+ }
+
+ .container-shh{
+    font-size:  12px;
+ }
+
+
+ .home-containerr{
+    width: 130px;
+
+ }
+
+ .ol{
+    width: 230px;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    padding: 2px;
+        color: #6D6D6D;
+ }
+ 
+ .oll{
+    margin-bottom: 0.5em;
+        color: #6D6D6D;
+ }

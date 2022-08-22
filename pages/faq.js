@@ -28,7 +28,7 @@ export default function faq() {
                     <div className="cont ml-5 mb-5 fqcn">
                         
                         <div className="opttitle1 mb-3 mt-5">Kriteret për pranim për programet Bachelor: </div>
-                             <ul>
+                             <ul className='ull'>
                                  <li>Provmi pranues 40%</li>
                                  <li>Testi i maturës 30%</li>
                                  <li>Suksesi në shkollimin e mesëm 30%</li>

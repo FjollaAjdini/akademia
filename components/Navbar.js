@@ -42,7 +42,7 @@ export default function Navbar () {
                                  
                                     <div className="cont ml-5 mb-5">
                                           
-                                          <div className="opttitle1 mb-3 mt-1"><Link href="/AboutUs/Akademia"><a class="">Akademia Profesionale Gjermane</a></Link></div>
+                                          <div className="opttitle1 mb-3 mt-1"><Link href="/AboutUs/Akademia"><a class="oll">Akademia Profesionale Gjermane</a></Link></div>
                                             
                                           <div className="opttitle1 mb-3 mt-1"><Link href="/AboutUs/MisioniVizioni"><a class="">Misioni & Vizioni & Vlerat</a></Link></div>
 
@@ -50,10 +50,10 @@ export default function Navbar () {
 
                                           <div className="opttitle1 mb-3 mt-1"><Link href="/AboutUs/Akreditimi"><a class="">Akreditimi</a></Link></div>
 
-                                          <div className="opttitle1 mb-3 mt-1"><Link href="/AboutUs/MisioniVizioni"><a class="">Partnerët</a></Link></div>
+                                          <div className="opttitle1 mb-3 mt-1"><Link href="/AboutUs/Parneret"><a class="">Partnerët</a></Link></div>
                                            
                                     </div>                                                
-                                 </div>
+                                 </div>   
                                  </li>
                              
 

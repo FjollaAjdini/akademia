@@ -1,8 +1,7 @@
 import Link from 'next/link';
 import Footer from '/components/Footer';
 import Navbar from '/components/Navbar';
-import Kosto from './Regjistrimi/Kosto';
-import Aplikimi from './Regjistrimi/Aplikimi';
+
 
 
 
@@ -13,7 +12,7 @@ export default function Homepage () {
           <Navbar/>
             <div className="row">
                  <div className="col-lg-3">
-                    ...
+                    
                  </div>
                  <div className="col-lg-6">
                     <div className="row">
@@ -141,7 +140,7 @@ export default function Homepage () {
                      </div>
                   </div>
                </div>
-               <div className='col-lg-3'>...</div>
+               <div className='col-lg-3'></div>
             </div>
             <hr className='hr' />
           </div>
@@ -294,8 +293,10 @@ export default function Homepage () {
                </div>
             </div>
       
-         
-          {/* <Footer/> */}
+        
+
+          <Footer/>
+      
       </div>
         
     )
