@@ -13,7 +13,7 @@ export default function Homepage () {
           <Navbar/>
             <div className="row">
                  <div className="col-lg-3">
-                    ...
+                    
                  </div>
                  <div className="col-lg-6">
                     <div className="row">

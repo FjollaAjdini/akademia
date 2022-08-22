@@ -4,17 +4,18 @@ import Footer from '../components/Footer';
 export default function faq() {
   return (
     <>
+    <div className="cnt">
     <div className="koncnav">
             <Navbar/>
     </div>
         <div className="topnav2">
             PYETJE TË SHPESHTA
         </div>
-        <div className="bannercontainerfaq">
+        <div className="bannercontainer1">
             {/* <img className="hisimg" src="/images/historia.jpg" width="100%"></img> */}
             
         </div>
-        <div className="cnt">
+     
             
             <div className="home-container">
             <p className="mvvtitle">PYETJE TË SHPESHTA</p>
@@ -22,7 +23,9 @@ export default function faq() {
             <li className="list-group-item">
                 
                <div className="container-sh">
-               <p className="nx1" data-toggle="collapse" data-target="#collapse0" >Cilat janë kriteret për pranim?</p>
+               <p className="nx1" data-toggle="collapse" data-target="#collapse0" >Cilat janë kriteret për pranim? 
+               {/* <img src="/images/shigjeta_gjelbert.svg" height="15px" style={{marginLeft: "300px"}}></img> */}
+               </p>
                <div id="collapse0" className="collapse">
                 
                     <div className="cont ml-5 mb-5 fqcn">
@@ -48,7 +51,9 @@ export default function faq() {
             <hr></hr>
             <li className="list-group-item">
             <div className="container-sh">
-               <p className="nx1" data-toggle="collapse" data-target="#collapse1" >A ofrojmë mundësi punësimi jashtë vendit?</p>
+               <p className="nx1" data-toggle="collapse" data-target="#collapse1" >A ofrojmë mundësi punësimi jashtë vendit?
+               {/* <img src="/images/shigjeta_gjelbert.svg" height="15px" style={{marginLeft: "137px"}}></img> */}
+               </p>
                <div id="collapse1" className="collapse">
                 <div className="cont ml-5 mb-5 fqcn">
                     <div className="opttitle1 mb-3 mt-5">Ne ofrojmë mundësi praktike dhe punësimi brenda dhe jashtë vendit.</div>
@@ -59,7 +64,9 @@ export default function faq() {
             <hr></hr>
             <li className="list-group-item">
             <div className="container-sh">
-               <p className="nx1" data-toggle="collapse" data-target="#collapse3" >A ofrohen kurse të gjuhës gjermane?</p>
+               <p className="nx1" data-toggle="collapse" data-target="#collapse3" >A ofrohen kurse të gjuhës gjermane?
+               {/* <img src="/images/shigjeta_gjelbert.svg" height="15px" style={{marginLeft: "217px"}}></img> */}
+               </p>
                <div id="collapse3" className="collapse">
                <div className="cont ml-5 mb-5 fqcn">
                     <div className="opttitle1 mb-3 mt-5">Ne ofrojmë kurse falas për gjuhën gjermane.</div>
@@ -90,17 +97,7 @@ export default function faq() {
             </div>
             </li>
             <hr></hr>
-            <li className="list-group-item">
-            <div className="container-sh">
-               <p className="nx1" data-toggle="collapse" data-target="#collapse6" >A mundësohet studim për ndonjë semestër jashtë vendit?</p>
-               <div id="collapse6" className="collapse">
-               <div className="cont ml-5 mb-5 fqcn">
-                    <div className="opttitle1 mb-3 mt-5">Për studentet e dalluar ne ofrojmë mundesi studimi per një semester ose edhe më shumë jashtë vendit.</div>
-                </div>                                                     
-               </div>
-            </div>
-            </li>
-            <hr></hr>
+
             </ul>
             </div>
 

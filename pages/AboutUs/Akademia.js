@@ -5,11 +5,14 @@ import Footer from '../../components/Footer';
 export default function Akademia () {
     return (
       <>
+      <div className="cnt">
+
+    
       <div className="koncnav">
          <Navbar/>
       </div>
       <div className="topnav2">
-         AKADEMIA PROFESIONALE GJERMANE
+         AKADEMIA 
       </div>
       <div className="bannercontainer1">
             {/* <img className="hisimg" src="/images/historia.jpg" width="100%"></img> */}
@@ -53,6 +56,8 @@ export default function Akademia () {
       <div>
          <Footer/>
       </div> 
+
+      </div>
 
       </>
 
