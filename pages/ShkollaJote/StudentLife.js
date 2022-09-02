@@ -20,7 +20,7 @@ export default function StudentLife () {
                <div className='col-lg-6'>
                   <div className='row'>
                      <div className='col-lg-3'>
-                        <img className='steni' src='images/Steni.png'></img>
+                        <img className='steni' src='/images/Steni.png'></img>
                         <div className='namep'>
                         <p className='name'>KARSTEN KLAPP</p>
                         <p className='position'>Drejtor</p>
@@ -53,7 +53,7 @@ export default function StudentLife () {
           <div>
             <Footer/>
           </div>
-
+               {/* wh - Akreditimi css */}
       </>
     )
 }

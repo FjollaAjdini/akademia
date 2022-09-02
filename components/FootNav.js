@@ -30,11 +30,11 @@ export default function FootNav () {
                                             
                                        <div className="oll"><Link href="/ShkollaJote/stafi"><p class="">Stafi</p></Link></div>
 
-                                       <div className="oll"><Link href="/AboutUs/koncepti"><p class="">Laboratori</p></Link></div>
+                                       <div className="oll"><Link href="/ShkollaJote/Laboratori"><p class="">Laboratori</p></Link></div>
 
                                        <div className="oll"><Link href="/ShkollaJote/StudentLife"><p class="">Jeta e Nxënesit</p></Link></div>
 
-                                       <div className="oll"><Link href="/AboutUs/MisioniVizioni"><p class="">Transporti</p></Link></div>
+                                       <div className="oll"><Link href="/ShkollaJote/Transporti"><p class="">Transporti</p></Link></div>
 
                                        <div><Link href="/ShkollaJote/Kantina"><p class="">Kantina</p></Link></div>
 
@@ -72,12 +72,12 @@ export default function FootNav () {
             </li>
             <div className="list-group-itemm">
             <div className="container-shh">
-               <p className="nx12" data-toggle="collapse" data-target="#collapse4" >PYETJE TE SHPESHTA</p>
+              <Link href="/faq"><p className="nx12" data-toggle="collapse" data-target="#collapse4" >PYETJE TE SHPESHTA</p></Link> 
             </div>
             </div>
             <div className="list-group-itemm">
             <div className="container-shh">
-               <p className="nx12" data-toggle="collapse" data-target="#collapse5" >ME TE REJAT</p>
+              <Link href="/MeTeRejat/MeTeRejat"><p className="nx12" data-toggle="collapse" data-target="#collapse5" >ME TE REJAT</p></Link> 
             </div>
             </div>
             <li className="list-group-itemm">

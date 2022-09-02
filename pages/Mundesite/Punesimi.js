@@ -15,7 +15,7 @@ import Footer from '../../components/Footer';
         <div className="bannercontainer1">
               {/* <img className="hisimg" src="/images/historia.jpg" width="100%"></img> */}
         </div>
-       <div>
+       <div className="wh">
         <div className="row">
           <div className="col-lg-3">..</div>
             <div className="col-lg-6">

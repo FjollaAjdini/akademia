@@ -32,7 +32,7 @@ export default function Homepage () {
                                                     Ipsum.It is a long established fact that a reader will be distracted
                                                     by the readable content of a page when looking at its layout. The... </p>
                                </div>
-                                  <button className='meshum'>MË SHUMË</button>
+                                 <div> <Link href="/AboutUs/koncepti"><button className='meshum'>MË SHUMË</button></Link></div>
                          </div>
                         <div className="col-lg-3">
                              <img className='qikaa' src='images/QIKA.svg'></img>
@@ -83,19 +83,19 @@ export default function Homepage () {
                          <img className='Foto' src='images/Foto.svg'></img>
                          <p className='newpar'>LAJME DHE NGJARJE 1</p>
                          <p className='datee'>12.08.2022</p>
-                         <button className='meshum'>MË SHUMË</button>
+                         <Link href="/MeTeRejat/MeTeRejat"><button className='meshum'>MË SHUMË</button></Link>
                    </div>
                    <div className='col-lg-4'>
                          <img className='Foto' src='images/Foto.svg'></img>
                          <p className='newpar'>LAJME DHE NGJARJE 2</p>
                          <p className='datee'>13.08.2022</p>
-                         <button className='meshum'>MË SHUMË</button>
+                         <Link href="/MeTeRejat/MeTeRejat"><button className='meshum'>MË SHUMË</button></Link>
                    </div>
                    <div className='col-lg-4'>
                          <img className='Foto' src='images/Foto.svg'></img>
                          <p className='newpar'>LAJME DHE NGJARJE 3</p>
                          <p className='datee'>14.08.2022</p>
-                         <button className='meshum'>MË SHUMË</button>
+                          <Link href="/MeTeRejat/MeTeRejat"><button className='meshum'>MË SHUMË</button></Link>
                    </div>
                </div>
            </div>
@@ -135,7 +135,7 @@ export default function Homepage () {
                           distracted by the readable content of a page when looking at its layout.
                           The point of using Lorem Ipsum is that it has a more-or-less...
                           distribution of letters, as opposed to using 'Content here, content ... </p>
-                          <button className='meshum'>MË SHUMË</button>
+                           <Link href="/AboutUs/Akademia"><button className='meshum'>MË SHUMË</button></Link>
                         </div>
                      </div>
                   </div>
@@ -161,7 +161,7 @@ export default function Homepage () {
                                        consectetuer adipiscing elit,
                                        sed diam nonummy nibh
                                        euismod tincidunt ut dolore... </p>
-                                    <button className='meshum'>MË SHUMË</button>
+                                    <Link href="/AboutUs/MisioniVizioni"><button className='meshum'>MË SHUMË</button></Link>
                                    </div> 
                                  </div>
                                   <div className='col-lg-4'>
@@ -171,7 +171,7 @@ export default function Homepage () {
                                        consectetuer adipiscing elit,
                                        sed diam nonummy nibh
                                        euismod tincidunt ut dolore... </p>
-                                       <button className='meshum'>MË SHUMË</button>
+                                       <Link href="/AboutUs/MisioniVizioni"><button className='meshum'>MË SHUMË</button></Link>
                                     </div>
                                    </div>
                                   <div className='col-lg-4'>
@@ -181,7 +181,7 @@ export default function Homepage () {
                                         consectetuer adipiscing elit,
                                         sed diam nonummy nibh
                                         euismod tincidunt ut dolore... </p>
-                                       <button className='meshum'>MË SHUMË</button>
+                                       <Link href="/AboutUs/MisioniVizioni"><button className='meshum'>MË SHUMË</button></Link>
                                      </div>
                                       <img className='thonjeza' src='images/thonjeza.svg'></img>
                                   </div>
@@ -218,7 +218,7 @@ export default function Homepage () {
                                                              distracted by the readable content of a page when looking at its layout.
                                                              The point of using Lorem Ipsum is that it has a more-or-less...
                                                              distribution of letters, as opposed to using 'Content here, content ... </p>
-                                        <button className='meshum'>MË SHUMË</button>
+                                         <Link href="/ShkollaJote/Kualifikimet"><button className='meshum'>MË SHUMË</button></Link>
                                      </div>
                                    <div className='col-lg-3'>
                                       <img className='qik' src='images/qik.png'></img>
@@ -252,7 +252,7 @@ export default function Homepage () {
                      </div>
                      <div className='col-lg-3'>
                        <div className='tsd'>
-                        <p className='title'>AKADEMIA PROFESIONALE GJERMANE</p>
+                        <p className='title'>JETA STUDENTORE</p>
                         <p className='subtitle'>LOREM IPSUM IS SIMPLY DUMMY</p>
                         <p className='desc'>Lorem Ipsum is simply dummy text of the printing and typesetting
                            industry. Lorem Ipsum has been the industry's standard dummy text ever
@@ -266,7 +266,7 @@ export default function Homepage () {
                           distracted by the readable content of a page when looking at its layout.
                           The point of using Lorem Ipsum is that it has a more-or-less...
                           distribution of letters, as opposed to using 'Content here, content ... </p>
-                          <button className='meshum'>MË SHUMË</button>
+                           <Link href="/ShkollaJote/StudentLife"><button className='meshum'>MË SHUMË</button></Link>
                         </div>
                      </div>
                   </div>

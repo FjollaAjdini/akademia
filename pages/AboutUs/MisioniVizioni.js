@@ -15,6 +15,7 @@ export default function koncepti() {
       <div className="bannercontainer1">
             {/* <img className="hisimg" src="/images/historia.jpg" width="100%"></img> */}
       </div>
+      <div className="wh">
        <div className="row">
 
           <div className="col-lg-3">
@@ -90,11 +91,11 @@ export default function koncepti() {
           
        </div>
 
-
+ </div>
       <div>
          <Footer/>
       </div>  
       </>
-
+         //  wh-Akreditimi.css
       )
    }

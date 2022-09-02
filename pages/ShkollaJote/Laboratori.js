@@ -1,19 +1,25 @@
-import Footer from "../../components/Footer"
 import Navbar from "../../components/Navbar"
+import Footer from "../../components/Footer"
 
-export default function Kantina () {
+export default function Laboratori () {
     return (
-        <div>
+        <>
             <div className="koncnav">
-         <Navbar/>
-      </div>
-      <div className="topnav2">
-         MË TË REJAT
-      </div>
+               <Navbar/>
+            </div>
+            <div className="topnav2">
+               LABORATORI
+            </div>
+            <div className="bannercontainer1">
+                  {/* <img className="hisimg" src="/images/historia.jpg" width="100%"></img> */}
+            </div>
+        
+
+        <div>
             <div className="row">
                <div className="col-lg-3"></div>
                <div  className="col-lg-6">
-                   <p className="labp">KANTINA</p>
+                   <p className="labp">LABORATORI</p>
                    <p className="labpar1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
                      laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
                      ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
@@ -67,7 +73,8 @@ export default function Kantina () {
 
                <div  className="col-lg-3"></div>
             </div>
-            <Footer/>
         </div>
+        <Footer/>
+        </>
     )
 }

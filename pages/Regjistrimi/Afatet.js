@@ -16,7 +16,7 @@ export default function Afatet () {
                     {/* <img className="hisimg" src="/images/historia.jpg" width="100%"></img> */}
                 </div>
             
-            
+                   <div className="wh">
                     <div className="row">
                         <div className="col-lg-3"></div>
                         <div className="col-lg-6">
@@ -38,6 +38,7 @@ export default function Afatet () {
                 <div>
                     <Footer/>
                 </div>
+        </div>
         </div>
         </>
     )

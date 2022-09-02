@@ -7,7 +7,6 @@ import "../style/Nav.css";
 import "../style/Footer.css";
 import "../style/AboutUs/Akademia.css";
 import "../style/homepage.css";
-<<<<<<< HEAD
 import "../style/AboutUs/Akreditimi.css"
 import "../style/Regjistrimi/Aplikimi.css"
 import "../style/Regjistrimi/Afatet.css"
@@ -16,19 +15,18 @@ import "../style/ShkollaJote/kualifikimet.css"
 import "../style/ShkollaJote/Kantina.css"
 import "../style/AboutUs/MisioniVizioni.css"
 import Link from 'next/link'
-=======
 import "../style/AboutUs/Akreditimi.css";
 import "../style/Regjistrimi/Aplikimi.css";
 import "../style/Regjistrimi/Afatet.css";
 import "../style/AboutUs/Partneret.css";
 import "../style/ShkollaJote/kualifikimet.css";
 import "../style/AboutUs/MisioniVizioni.css";
-
->>>>>>> f415660f27ecb4ed0bea6110a28f12bde7c5d980
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import '../style/nav-link.css';
 import "../style/ShkollaJote/stafi.css";
 import "../style/faq.css";
+import "../style/ShkollaJote/Laboratori.css";
+import "../style/MeTeRejat/MeTeRejat.css"
 
 
 function MyApp({ Component, pageProps }) {
@@ -37,7 +35,6 @@ function MyApp({ Component, pageProps }) {
   }, []);
 return (
 <>
-
       <Head>
   <meta charSet="UTF-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
